@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/* COLORS
+#C3F73A
+#5C8001
+#FB6107
+#353535
+#EBEBD3
+*/
+
+body { 
+	background-color: #353535;
+	color: #FFFFFF;
+	font-family: "Tahoma";
+	
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	background-color: #C3F73A;
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar li a {
+	display: block;
+	color: #353535;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.navbar a:hover, .navbar a:active {
+  background-color: #DEFA93;
+}
+
+/*Style footer*/
+.footer{
+	background-color: #C3F73A;
+	color: black;
+	padding: 10px;
+	text-align: center;
+	font-family: "Tahoma";
+	font-weight: bold;
+
+}
