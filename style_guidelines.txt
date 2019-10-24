@@ -1,5 +1,5 @@
 OVERALL LOOK AND FEEL OF LOCKBOX
-====================================
+===================================
  The overall look and feel of our website should be simple but still catch the users eyes. We want our coloring scheme to be bright while still looking minimalistic. We will avoid 3D buttons and/or 3D metallic looks. We want the website to be simple to understand and simple to use. 
 
 
