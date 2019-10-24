@@ -1,0 +1,35 @@
+OVERALL LOOK AND FEEL OF LOCKBOX
+====================================
+ The overall look and feel of our website should be simple but still catch the users eyes. We want our coloring scheme to be bright while still looking minimalistic. We will avoid 3D buttons and/or 3D metallic looks. We want the website to be simple to understand and simple to use. 
+
+
+Colour
+=====
+ Like previously stated, the colors of our website should be eye catching while still not being too loud.
+These are the colors we would like to use : 
+#252627 (Dark Background)
+#3A7CB4 (Light Accent 1)
+#FFAD05 (Light Accent 2)
+#D1D1D1 (Light Background)
+#1C5D99 (Dark Accent 1)
+
+
+Iconography
+=========
+We will be using icons have a minimalistic and simple design while still being modern. We will be using variations of the colors blue, orange and a dark shade of grey. 
+
+
+Typography
+========
+We will be using the Tahoma font.
+
+
+Links
+====
+Our links will appear as buttons and will not be embedded inside of paragraphs or other text (they will have their own area on the page).
+
+
+Buttons
+======
+We want our buttons to have an oval form and have simple yet playful look.
+Our buttons (home, features, pricing and team) on the navbar should not have any shape, and will instead be denoted by a more subtle scheme such as through underlining. We want these buttons to appear “flush” with the navbar.
