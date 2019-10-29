@@ -1,18 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
-/* COLORS
-#C3F73A
-#5C8001
-#FB6107
-#353535
-#EBEBD3
-*/
+
+:root {
+	--dark-bg-color: #252627;
+	--light-bg-color: #D1D1D1;
+	--accent-1-light: #3A7CB4;
+	--accent-1-dark: #1C5D99;
+	--accent-2-light: #FFAD05;
+}
 
 body { 
-	background-color: #353535;
+	background-color: var(--dark-bg-color);
 	color: #FFFFFF;
-	font-family: "Tahoma";
-	
+	font-family: "Tahoma"
 }
 
 .navbar ul {
@@ -21,7 +21,7 @@ body {
 	padding: 0;
 	overflow: hidden;
 	width: 100%;
-	background-color: #C3F73A;
+	background-color: var(--accent-1-dark);
 }
 
 .navbar li {
@@ -30,7 +30,7 @@ body {
 
 .navbar li a {
 	display: block;
-	color: #353535;
+	color: var(--light-bg-color);
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -38,12 +38,12 @@ body {
 }
 
 .navbar a:hover, .navbar a:active {
-  background-color: #DEFA93;
+  background-color: var(--accent-1-light);
 }
 
 /*Style footer*/
 .footer{
-	background-color: #C3F73A;
+	background-color: var(--light-bg-color);
 	color: black;
 	padding: 10px;
 	text-align: center;
