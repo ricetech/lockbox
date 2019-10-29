@@ -43,11 +43,13 @@ body {
 
 /*Style footer*/
 .footer{
-	background-color: var(--light-bg-color);
-	color: black;
-	padding: 10px;
-	text-align: center;
-	font-family: "Tahoma";
-	font-weight: bold;
 
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: var(--light-bg-color);
+	color: white;
+	font-family: "Tahoma";
 }
