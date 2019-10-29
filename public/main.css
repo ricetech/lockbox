@@ -30,7 +30,7 @@ body {
 
 .navbar li a {
 	display: block;
-	color: var(--light-bg-color);
+	color: #FFFFFF;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
