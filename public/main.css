@@ -1,12 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
 :root {
 	--dark-bg-color: #252627;
 	--light-bg-color: #D1D1D1;
 	--accent-1-light: #3A7CB4;
 	--accent-1-dark: #174D7E;
 	--accent-2-light: #FFAD05;
+	--logo-font: 'Righteous', cursive;
 }
 
 body { 
