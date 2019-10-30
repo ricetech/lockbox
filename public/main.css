@@ -18,11 +18,26 @@ body {
 	font-family: "Tahoma"
 }
 
-.titlebar {
+.logo {
+	float: left;
+	width: 50%;
+	padding-left: 10px;
+	font-family: var(--logo-font);
+	vertical-align: middle;
+}
+
+.navbar {
 	background-color: var(--accent-1-dark);
 }
 
-.navbar ul {
+.navbuttons {
+	float: right;
+	vertical-align: middle;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbuttons ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -30,11 +45,11 @@ body {
 	width: 100%;
 }
 
-.navbar li {
+.navbuttons li {
 	float: left;
 }
 
-.navbar li a {
+.navbuttons li a {
 	display: block;
 	color: #FFFFFF;
 	text-align: center;
@@ -43,11 +58,17 @@ body {
 	font-weight: bold;
 }
 
-.navbar a:hover, .navbar a:active {
+.navbuttons a:hover, .navbuttons a:active {
   background-color: var(--accent-1-light);
 }
 
-/*Style footer*/
+.navbar:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*Footer*/
 .footer{
 
 	position: fixed;
@@ -59,21 +80,3 @@ body {
 	color: white;
 	font-family: "Tahoma";
 }
-
-.logo {
-	float: left;
-	width: 50%;
-	padding-left: 10px;
-}
-
-.navbar {
-	float: right;
-	
-}
-
-.titlebar:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
