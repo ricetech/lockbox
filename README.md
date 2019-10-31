@@ -7,7 +7,7 @@ https://lockbox-site.web.app/
 --
 (Backup link: https://lockbox-site.firebaseapp.com/)
 
-Team members: 
+Team members:  
 Eric Chen @ https://github.com/ricetech  
 Nisarg Patel @ https://github.com/Nisarg23  
 Hong Yue Wang @ https://github.com/hongyuewang  
