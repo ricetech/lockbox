@@ -8,8 +8,8 @@ https://lockbox-site.web.app/
 (Backup link: https://lockbox-site.firebaseapp.com/)
 
 Team members: 
-Eric Chen @ https://github.com/ricetech 
-Nisarg Patel @ https://github.com/Nisarg23 
-Hong Yue Wang @ https://github.com/hongyuewang 
-Alexis Verana @ https://github.com/sixela413 
-Michael Malek @ https://github.com/MichaelMalek001
+Eric Chen @ https://github.com/ricetech  
+Nisarg Patel @ https://github.com/Nisarg23  
+Hong Yue Wang @ https://github.com/hongyuewang  
+Alexis Verana @ https://github.com/sixela413  
+Michael Malek @ https://github.com/MichaelMalek001  
