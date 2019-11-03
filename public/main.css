@@ -28,6 +28,9 @@ body {
 
 .navbar {
 	background-color: var(--accent-1-dark);
+	position: fixed;
+  	top: 0;
+	width: 100%;
 }
 
 .navbuttons {
@@ -42,7 +45,8 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	width: 100%;
+	
+	
 }
 
 .navbuttons li {
@@ -68,31 +72,7 @@ body {
 	clear: both;
 }
 
-.hero {
-	/*sizing*/
-	width: 100vw;
-	height: 50vh;
-}
-.hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('warehouse.jpg'); 
-	/*i tried to link an image from the 
-	images folder but it didn't work*/
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
-.hero h1{
-	font-size: 100px;
-	font-family: var(--logo-font);
-	text-align: center;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -120%);
-	color: white;
-}
+
 /*Footer*/
 .footer{
 
