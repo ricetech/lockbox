@@ -15,14 +15,18 @@
 body { 
 	background-color: var(--dark-bg-color);
 	color: #FFFFFF;
-	font-family: "Tahoma"
+	font-family: "Tahoma";
+	margin: 0;
 }
 
+
+/* Navbar */
 .navbar {
 	background-color: var(--accent-1-dark);
 	position: fixed;
   	top: 0;
 	width: 100%;
+	
 }
 
 .logo {
@@ -45,8 +49,6 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	
-	
 }
 
 .navbuttons li {
@@ -57,7 +59,7 @@ body {
 	display: block;
 	color: #FFFFFF;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 1em;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -71,6 +73,8 @@ body {
 	display: table;
 	clear: both;
 }
+
+/*Content*/
 
 
 /*Footer*/
