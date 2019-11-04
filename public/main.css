@@ -9,6 +9,7 @@
 	--accent-1-light: #3A7CB4;
 	--accent-1-dark: #174D7E;
 	--accent-2-light: #FFAD05;
+	--active-link-color: #2C5D89;
 	--logo-font: 'Righteous', cursive;
 }
 
@@ -32,7 +33,7 @@ body {
 .logo {
 	float: left;
 	width: 50%;
-	padding-left: 10px;
+	padding-left: 1em;
 	font-family: var(--logo-font);
 	vertical-align: middle;
 	display: inline-block;
@@ -68,6 +69,11 @@ body {
 	vertical-align: middle;
 }
 
+/* Active link */
+.active {
+	background-color: var(--active-link-color);
+}
+
 .navbuttons a:hover, .navbuttons a:active {
   background-color: var(--accent-1-light);
 }
@@ -79,7 +85,9 @@ body {
 }
 
 /*Content*/
-
+.header {
+	
+}
 
 /*Footer*/
 .footer{
