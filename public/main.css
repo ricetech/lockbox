@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
+/* CSS Document for elements shared across all pages*/
 
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
@@ -60,7 +60,7 @@ body {
 
 .navbuttons li a {
 	display: table-cell;
-	color: #FFFFFF;
+	color: white;
 	text-align: center;
 	padding: 0em 1em 0 1em;
 	text-decoration: none;
@@ -82,11 +82,6 @@ body {
 	content: "";
 	display: table;
 	clear: both;
-}
-
-/*Content*/
-.header {
-	
 }
 
 /*Footer*/
