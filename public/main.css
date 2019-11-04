@@ -95,6 +95,6 @@ body {
 	width: 100%;
 	text-align: center;
 	background-color: var(--light-bg-color);
-	color: white;
+	color: var(--dark-bg-color);
 	font-family: "Tahoma";
 }
