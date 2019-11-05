@@ -54,12 +54,11 @@
 }
 
 .column{
-	float:left;
-	width: 35%;
+	float: left;
+	width: calc(50% - 10em);
 	padding-left: 5em;
 	padding-right: 5em;
 	text-align: center;
-
 }
 
 
@@ -115,5 +114,6 @@
 }
 
 .footer {
-	margin-top: 100vh;
+	position: relative;
+	margin-top: 16vh;
 }
