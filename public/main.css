@@ -46,7 +46,7 @@ h1 {
 }
 
 .logo img {
-	height: 4rem;
+	height: 4.5rem;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -54,7 +54,8 @@ h1 {
 .logo-text {
 	display: inline-block;
 	vertical-align: middle;
-	line-height: var(--navbar-height);
+	line-height: 1rem;
+	font-size: 1.5rem;
 }
 
 .navbuttons {
@@ -85,7 +86,7 @@ h1 {
 	font-weight: bold;
 	height: var(--navbar-height);
 	vertical-align: middle;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 /* Active link */
