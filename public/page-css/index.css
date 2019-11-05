@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document for index.html*/
+
+.header {
+	margin-top: 4rem;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/warehouse.jpg);
+	height: calc(100vh - 4rem);
+	text-align: center;
+	padding: 0;
+    display: table;
+	width: 100%;
+}
+
+.header-text {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.header-text h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 8em;
+	font-family: var(--logo-font);
+}
+
+.header-text h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.header-text button {
+	background-color: transparent;
+	border: thin solid white;
+	color: white;
+	outline: none;
+	font-family: "Tahoma";
+	font-stretch: expanded;
+	text-transform: uppercase;
+}
+
+.header-text p {
+	margin: 0;
+	padding: 0;
+}
+
+#login {
+	font-style: italic ;
+}
+
+.header-logo {
+	letter-spacing: 0em;
+}
+
+.tagline{
+	letter-spacing: 0.1em;
+}
+
+.column{
+	float:left;
+	width: 35%;
+	padding-left: 5em;
+	padding-right: 5em;
+	text-align: center;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }

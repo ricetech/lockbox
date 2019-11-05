@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
+/* CSS Document for elements shared across all pages*/
 
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
@@ -9,32 +9,52 @@
 	--accent-1-light: #3A7CB4;
 	--accent-1-dark: #174D7E;
 	--accent-2-light: #FFAD05;
+	--active-link-color: #2C5D89;
 	--logo-font: 'Righteous', cursive;
+	--button-fade-time: 0.3s;
 }
 
 body { 
 	background-color: var(--dark-bg-color);
 	color: #FFFFFF;
-	font-family: "Tahoma"
+	font-family: "Tahoma";
+	margin: 0;
+	line-height: 2;
+}
+
+h1, h2, p, li, th {
+	padding-left: 1em;
+	padding-right: 1em;
+	letter-spacing: 0.1em;
+}
+
+h1 {
+	text-align: center;
+}
+
+/* Navbar */
+.navbar {
+	background-color: var(--accent-1-dark);
+	position: fixed;
+  	top: 0;
+	width: 100%;
+	height: 4em;
 }
 
 .logo {
 	float: left;
 	width: 50%;
-	padding-left: 10px;
+	padding-left: 1em;
 	font-family: var(--logo-font);
 	vertical-align: middle;
-}
-
-.navbar {
-	background-color: var(--accent-1-dark);
+	display: inline-block;
 }
 
 .navbuttons {
 	float: right;
 	vertical-align: middle;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	height: 4em;
+	display: inline-block;
 }
 
 .navbuttons ul {
@@ -42,7 +62,7 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	width: 100%;
+	height: 4em;
 }
 
 .navbuttons li {
@@ -50,12 +70,19 @@ body {
 }
 
 .navbuttons li a {
-	display: block;
-	color: #FFFFFF;
+	display: table-cell;
+	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 0em 1em 0 1em;
 	text-decoration: none;
 	font-weight: bold;
+	height: 4em;
+	vertical-align: middle;
+}
+
+/* Active link */
+.active {
+	background-color: var(--active-link-color);
 }
 
 .navbuttons a:hover, .navbuttons a:active {
@@ -68,40 +95,16 @@ body {
 	clear: both;
 }
 
-.hero {
-	/*sizing*/
-	width: 100vw;
-	height: 50vh;
-}
-.hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('warehouse.jpg'); 
-	/*i tried to link an image from the 
-	images folder but it didn't work*/
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}
-.hero h1{
-	font-size: 100px;
-	font-family: var(--logo-font);
-	text-align: center;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -120%);
-	color: white;
-}
 /*Footer*/
 .footer{
-
-	position: fixed;
-	left: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
 	background-color: var(--light-bg-color);
-	color: white;
+	color: var(--dark-bg-color);
 	font-family: "Tahoma";
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.75em;
+	padding-bottom: 0.25em ;
 }
