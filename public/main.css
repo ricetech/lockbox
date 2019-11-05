@@ -28,6 +28,9 @@ h1, h2, p, li, th {
 	letter-spacing: 0.1em;
 }
 
+h1 {
+	text-align: center;
+}
 
 /* Navbar */
 .navbar {
@@ -100,4 +103,8 @@ h1, h2, p, li, th {
 	background-color: var(--light-bg-color);
 	color: var(--dark-bg-color);
 	font-family: "Tahoma";
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.75em;
+	padding-bottom: 0.25em ;
 }

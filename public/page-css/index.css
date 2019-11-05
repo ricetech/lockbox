@@ -54,3 +54,20 @@
 .tagline{
 	letter-spacing: 0.1em;
 }
+
+.column{
+	float:left;
+	width: 35%;
+	padding-left: 5em;
+	padding-right: 5em;
+	text-align: center;
+
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
