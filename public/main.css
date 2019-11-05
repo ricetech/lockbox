@@ -19,13 +19,6 @@ body {
 	color: #FFFFFF;
 	font-family: "Tahoma";
 	margin: 0;
-	line-height: 2;
-}
-
-h1, h2, p, li, th {
-	padding-left: 1em;
-	padding-right: 1em;
-	letter-spacing: 0.1em;
 }
 
 h1 {
@@ -96,7 +89,7 @@ h1 {
 }
 
 /*Footer*/
-.footer{
+.footer {
 	bottom: 0;
 	width: 100%;
 	text-align: center;
