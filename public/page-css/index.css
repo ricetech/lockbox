@@ -33,9 +33,16 @@
 	border: thin solid white;
 	color: white;
 	outline: none;
+	font-family: "Tahoma";
+	font-stretch: expanded;
+	text-transform: uppercase;
 }
 
 .header-text p {
 	margin: 0;
 	padding: 0;
+}
+
+#login {
+	font-style: italic ;
 }
