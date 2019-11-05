@@ -3,6 +3,15 @@
 
 .features-intro{
     text-align: center;
+    padding-left: 17em;
+    padding-right: 17em;
+}
+
+.page-title{
+    margin-top: var(--navbar-height);
+}
+
+.in-between-text{
     padding-left: 5em;
     padding-right: 5em;
 }
