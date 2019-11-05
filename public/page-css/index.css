@@ -85,14 +85,14 @@
 	margin: 5px;
   }
   
-  .signup span {
+.signup span {
 	cursor: pointer;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
   }
   
-  .signup span:after {
+.signup span:after {
 	content: '\00bb';
 	position: absolute;
 	opacity: 0;
@@ -101,11 +101,15 @@
 	transition: 0.5s;
   }
   
-  .signup:hover span {
+.signup:hover span {
 	padding-right: 25px;
   }
   
-  .signup:hover span:after {
+.signup:hover span:after {
 	opacity: 1;
 	right: 0;
   }
+
+.header-text a {
+	color: white;
+}
