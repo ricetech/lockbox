@@ -22,8 +22,10 @@ body {
 	line-height: 2;
 }
 
-h1, h2, p {
-	padding: 1em;
+h1, h2, p, li, th {
+	padding-left: 1em;
+	padding-right: 1em;
+	letter-spacing: 0.1em;
 }
 
 

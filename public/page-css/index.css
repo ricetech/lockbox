@@ -46,3 +46,11 @@
 #login {
 	font-style: italic ;
 }
+
+.header-logo {
+	letter-spacing: 0em;
+}
+
+.tagline{
+	letter-spacing: 0.1em;
+}
