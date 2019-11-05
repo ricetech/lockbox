@@ -11,6 +11,7 @@
 	--accent-2-light: #FFAD05;
 	--active-link-color: #2C5D89;
 	--logo-font: 'Righteous', cursive;
+	--button-fade-time: 0.3s;
 }
 
 body { 
