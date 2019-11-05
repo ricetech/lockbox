@@ -11,6 +11,9 @@
 	--button-fade-time: 0.3s;
 }
 
+.page-title{
+    margin-top: var(--navbar-height);
+}
 table {
     border-collapse: collapse;
     width: 50%;
