@@ -57,6 +57,10 @@ h1 {
 	line-height: 1rem;
 	font-size: 1.5rem;
 }
+.logo-text:hover {
+	font-weight: bold;
+	cursor: default;
+}
 
 .navbuttons {
 	float: right;
