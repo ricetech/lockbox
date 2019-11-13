@@ -20,7 +20,6 @@
     padding-right: 10em;
     text-align: center;
     line-height: 1;
-    font-size: 1.5em;
 }
 table {
     border-collapse: collapse;
@@ -44,4 +43,9 @@ td {
 
 th {
     height: 50px
+}
+
+.fine-print{
+    width: 50%;
+    vertical-align: middle;
 }
