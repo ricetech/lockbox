@@ -1,8 +1,12 @@
-.content {
+#content {
     margin-left: 1em;
     margin-right: 1em;
 }
 
-.terms {
+#terms {
     margin-top: calc(var(--navbar-height) + 0.5em);
+}
+
+#privacy {
+	
 }
