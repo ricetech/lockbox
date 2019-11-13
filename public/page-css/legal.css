@@ -4,9 +4,9 @@
 }
 
 #terms {
-    margin-top: calc(var(--navbar-height) + 0.5em);
+    margin-top: calc(var(--navbar-height) + 1rem);
 }
 
 #privacy {
-	
+	padding: calc(var(--navbar-height) + 1rem) 0 0 0;
 }
