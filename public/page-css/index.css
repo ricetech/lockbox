@@ -48,12 +48,12 @@
 	padding-bottom: 0em;
 }
 
-.tagline{
+.tagline {
 	letter-spacing: 0.1em;
 	padding-top: 0em;
 }
 
-.column{
+.column {
 	float: left;
 	width: calc(50% - 10em);
 	padding-left: 5em;
@@ -111,9 +111,4 @@
 
 .header-text a {
 	color: white;
-}
-
-.footer {
-	position: relative;
-	margin-top: 25vh;
 }
