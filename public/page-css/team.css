@@ -4,3 +4,7 @@
 .page-title{
     margin-top: var(--navbar-height);
 }
+
+.team-align{
+    text-align: center;
+}
