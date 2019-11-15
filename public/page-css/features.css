@@ -15,6 +15,7 @@
     padding-left: 5em;
     padding-right: 5em;
     margin-bottom: var(--navbar-height);
+    padding-bottom: 15em;
 }
 
 .column{
