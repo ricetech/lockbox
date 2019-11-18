@@ -23,10 +23,17 @@ h2.team-text {
 	width: 250px;
 	height: 250px;
 	margin-top: 1em;
+	border-radius: 50%;
   }
 
 .team-link {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 1.2rem;
+}
+
+.team-intro {
+	padding-left: 11em;
+	padding-right: 11em;
+	text-align: center;
 }

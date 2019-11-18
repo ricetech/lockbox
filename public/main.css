@@ -62,7 +62,6 @@ h1 {
 .logo-text:hover {
 	font-weight: bold;
 	color:#FFA500;
-	cursor: default;
 }
 
 .navbuttons {
