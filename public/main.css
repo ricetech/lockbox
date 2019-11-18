@@ -56,6 +56,8 @@ h1 {
 	vertical-align: middle;
 	line-height: 1rem;
 	font-size: 1.5rem;
+	text-decoration: none;
+	color: #FFFFFF;
 }
 .logo-text:hover {
 	font-weight: bold;
