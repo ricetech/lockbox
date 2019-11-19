@@ -51,6 +51,6 @@ button:hover {
 	transition-duration: var(--button-fade-time);
 }
 
-label {
-	
+.footer {
+	margin-top: 60vh;
 }
