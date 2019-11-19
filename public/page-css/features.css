@@ -18,10 +18,39 @@
     padding-bottom: 15em;
 }
 
-.column{
+/* .column{
     padding-left: 2em;
     padding-right: 2em;
     float:left;
     width:calc(25% - 5em);
     text-align:center;
+}*/ 
+
+.feat1 {
+    font-size: 1.5rem;
+	text-align: center;
+	padding: .5em 0 .2em 0;
+	z-index: 50;
+}
+
+.title1 {
+    font-size: 2rem;
+}
+.pic1{
+    position: absolute;
+	width: 50%;
+	height: 25rem;
+	left: 0;
+	overflow: hidden;
+}
+
+.desc1 {
+    position: absolute;
+	width: 50%;
+	height: 25rem;
+	right: 0;
+}
+
+.desc-text1 {
+    font-size: 1.5rem;
 }
