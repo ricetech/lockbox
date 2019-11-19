@@ -33,22 +33,24 @@
 	z-index: 50;
 }
 
-.title1 {
+.title1, .title2 {
     font-size: 2rem;
+    background-color: var(--accent-1-dark);
 }
 .pic1{
     position: absolute;
 	width: 50%;
-	height: 25rem;
+	height: 20rem;
 	left: 0;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .desc1 {
     position: absolute;
-	width: 50%;
+	width: 40%;
 	height: 25rem;
-	right: 0;
+    right: 0;
+    
 }
 
 .desc-text1 {
