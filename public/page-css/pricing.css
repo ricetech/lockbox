@@ -11,11 +11,11 @@
 	--button-fade-time: 0.3s;
 }
 
-.page-title{
+.page-title {
     margin-top: calc(var(--navbar-height) + 1rem);
 }
 
-.in-between-text{
+.in-between-text {
     padding-left: 10em;
     padding-right: 10em;
     text-align: center;

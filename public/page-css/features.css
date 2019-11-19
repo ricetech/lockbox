@@ -1,17 +1,17 @@
 @charset "utf-8";
 /* CSS Document for features.html*/
 
-.features-intro{
+.features-intro {
     text-align: center;
     padding-left: 17em;
     padding-right: 17em;
 }
 
-.page-title{
+.page-title {
     margin-top: var(--navbar-height);
 }
 
-.in-between-text{
+.in-between-text {
     padding-left: 5em;
     padding-right: 5em;
     margin-bottom: var(--navbar-height);
@@ -32,7 +32,7 @@ table {
     
 }
 
-td{
+td {
     vertical-align: middle;
 }
 
