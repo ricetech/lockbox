@@ -39,7 +39,13 @@ td{
     vertical-align: middle;
 }
 
+.img-left{
+    left:0px;
+}
 
+.img-right {
+    right:0px;
+}
 /* .column{
     padding-left: 2em;
     padding-right: 2em;
