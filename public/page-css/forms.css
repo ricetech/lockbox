@@ -6,3 +6,19 @@ form {
 	height: calc(100vh - var(--navbar-height));
 	
 }
+
+a {
+color: #FFFFFF;
+	font-family: "Tahoma";
+	padding-top: 0.75em;
+	padding-bottom: 0.25em;
+}
+
+a:hover { 
+	font-weight: bold;
+	color: #3A7CB4;
+	-moz-transition: all 0.2s ease-in;
+  	-o-transition: all 0.2s ease-in;
+  	-webkit-transition: all 0.2s ease-in;
+  	transition: all 0.2s ease-in;
+}
