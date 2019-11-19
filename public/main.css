@@ -176,3 +176,11 @@ h1 {
 	padding-bottom: 0.25em;
 }
 
+.footer a:hover { 
+	font-weight: bold;
+	color: #3A7CB4;
+	-moz-transition: all 0.2s ease-in;
+  	-o-transition: all 0.2s ease-in;
+  	-webkit-transition: all 0.2s ease-in;
+  	transition: all 0.2s ease-in;
+}
