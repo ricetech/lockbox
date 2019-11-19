@@ -59,18 +59,18 @@ h1 {
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: #FFFFFF;
-	-moz-transition: all 0.2s ease-in;
-  	-o-transition: all 0.2s ease-in;
-  	-webkit-transition: all 0.2s ease-in;
-  	transition: all 0.2s ease-in;
+	-moz-transition: all var(--button-fade-time) ease-in;
+  	-o-transition: all var(--button-fade-time) ease-in;
+  	-webkit-transition: all var(--button-fade-time) ease-in;
+  	transition: all var(--button-fade-time) ease-in;
 }
 .logo-text:hover {
 	font-weight: bold;
 	color: #FFA500;
-	-moz-transition: all 0.2s ease-in;
-  	-o-transition: all 0.2s ease-in;
-  	-webkit-transition: all 0.2s ease-in;
-  	transition: all 0.2s ease-in;
+	-moz-transition: all var(--button-fade-time) ease-in;
+  	-o-transition: all var(--button-fade-time) ease-in;
+  	-webkit-transition: all var(--button-fade-time) ease-in;
+  	transition: all var(--button-fade-time) ease-in;
 }
 
 .navbuttons {
@@ -143,8 +143,8 @@ h1 {
 .footer a:hover { 
 	font-weight: bold;
 	color: #3A7CB4;
-	-moz-transition: all 0.2s ease-in;
-  	-o-transition: all 0.2s ease-in;
-  	-webkit-transition: all 0.2s ease-in;
-  	transition: all 0.2s ease-in;
+	-moz-transition: all var(--button-fade-time) ease-in;
+  	-o-transition: all var(--button-fade-time) ease-in;
+  	-webkit-transition: all var(--button-fade-time) ease-in;
+  	transition: all var(--button-fade-time) ease-in;
 }
