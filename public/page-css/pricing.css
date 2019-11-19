@@ -1,17 +1,6 @@
 @charset "utf-8";
 /* CSS Document for pricing.html*/
 
-:root {
-	--dark-bg-color: #252627;
-	--light-bg-color: #D1D1D1;
-	--accent-1-light: #3A7CB4;
-	--accent-1-dark: #174D7E;
-	--accent-2-light: #FFAD05;
-	--active-link-color: #2C5D89;
-	--logo-font: 'Righteous', cursive;
-	--button-fade-time: 0.3s;
-}
-
 .page-title {
     margin-top: calc(var(--navbar-height) + 1rem);
 }
