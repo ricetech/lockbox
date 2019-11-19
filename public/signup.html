@@ -24,14 +24,32 @@
 		</div>
 	</nav>
 
-	<form class="signup-form">
+	<form class="signup-form" method="post" action="index.html">
 		<!-- Name, Email, Confirm Email, Address, Phone Number, Password -->
-		Full Name:<br>
-		<input type="text" name="name"><br>
-		Email:<br>
+		<label for="fullname">Full Name:</label><br>
+		<input type="text" id="fullname" name="name"><br>
+		
+		<label for="email">Email:</label><br>
 		<strong>NOTE! You must check this email regularly for updates from us.</strong><br>
-		<input type="text" name="email"><br>
-		By signing up, you accept our <a href="legal.html#">Terms and Conditions</a>, as well as our <a href="legal.html#privacy">Privacy Policy</a>.
+		<input type="email" id="email" name="email"><br>
+		
+		<label for="adr1">Address Line 1:</label><br>
+		<input type="text" id="adr1" name="address1"><br>
+		
+		<label for="adr2">Address Line 2:</label><br>
+		<input type="text" id="adr2" name="address2"><br>
+		
+		<label for="phn">Phone Number:</label><br>
+		<input type="tel" id="phn" name="phonenum"><br>
+		
+		<label for="pw1">Password:</label><br>
+		<input type="password" id="pw1" name="password"><br>
+		
+		<label for="pw2">Confirm Password:</label><br>
+		<input type="password" id="pw2" name="password-again"><br>
+		
+		By signing up, you accept our <a href="legal.html#">Terms and Conditions</a>, as well as our <a href="legal.html#privacy">Privacy Policy</a>.<br>
+		<button type="submit" onClick="window.location.href='index.html'">Submit</button>
 	</form>
 	
 	<div class="footer">
