@@ -8,7 +8,7 @@
 
 form {
 	text-align: center;
-	margin: calc(var(--navbar-height) + 10vh) auto auto auto;
+	margin: calc(var(--navbar-height) + 1rem) auto auto auto;
 	height: calc(100vh - var(--navbar-height));
 }
 
@@ -35,7 +35,8 @@ input {
 	border-radius: 25px;
 	font-size: 1.5rem;
 	padding: 0.5rem 1rem 0.5rem 1rem;
-	text-align: center
+	text-align: center;
+	margin: 0.3rem 0 1rem 0;
 }
 
 label {
