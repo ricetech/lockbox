@@ -1,32 +1,32 @@
 @charset "utf-8";
 /* CSS Document for team.html*/
 
-.page-title{
+.page-title {
     margin-top: calc(var(--navbar-height) + 1em);
 }
 
-.team-text {
+.team-content {
     text-align: center;
-	font-size: 2.2rem;
+	font-size: 1.2rem;
 }
 
-h2.team-text {
-	padding: 0 0 0 0;
+.team-content h2 {
+	padding: 0 0 1rem 0;
 	margin: 1rem 0 0 0;
 }
 
 
-.team-pic {
+.team-content img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 	width: 250px;
 	height: 250px;
-	margin-top: 1em;
+	margin-top: 4rem;
 	border-radius: 50%;
   }
 
-.team-link {
+.team-content a {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 1.2rem;
