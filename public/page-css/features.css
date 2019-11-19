@@ -18,6 +18,28 @@
     padding-bottom: 15em;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.table-title {
+    background-color: var(--accent-1-dark);
+    font-size: 1.75em;
+    height: 3em;
+    width: 100%;
+    
+}
+
+td{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: middle;
+    vertical-align: middle;
+}
+
+
 /* .column{
     padding-left: 2em;
     padding-right: 2em;
