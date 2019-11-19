@@ -12,7 +12,7 @@
 }
 
 .page-title{
-    margin-top: var(--navbar-height);
+    margin-top: calc(var(--navbar-height) + 1rem);
 }
 
 .in-between-text{
@@ -59,4 +59,5 @@ th {
 
 .fine-print li {
     font-size: 0.85rem;
+	text-align: left;
 }
