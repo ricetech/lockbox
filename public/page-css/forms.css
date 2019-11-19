@@ -1,3 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+form {
+	text-align: center;
+	margin: calc(var(--navbar-height) + 1rem) auto auto auto;
+	height: calc(100vh - var(--navbar-height));
+	
+}
