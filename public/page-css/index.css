@@ -11,6 +11,23 @@
 	width: 100%;
 }
 
+.header a { 
+	color: #FFFFFF;
+	-moz-transition: all 0.2s ease-in;
+  	-o-transition: all 0.2s ease-in;
+  	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.header a:hover { 
+	font-weight: bold;
+	color: #3A7CB4;
+	-moz-transition: all 0.2s ease-in;
+  	-o-transition: all 0.2s ease-in;
+  	-webkit-transition: all 0.2s ease-in;
+  	transition: all 0.2s ease-in;
+}
+
 .header-text {
 	display: table-cell;
 	vertical-align: middle;

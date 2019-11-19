@@ -119,23 +119,6 @@ h1 {
 	clear: both;
 }
 
-.header a { 
-	color: #FFFFFF;
-	-moz-transition: all 0.2s ease-in;
-  	-o-transition: all 0.2s ease-in;
-  	-webkit-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.header a:hover { 
-	font-weight: bold;
-	color: #3A7CB4;
-	-moz-transition: all 0.2s ease-in;
-  	-o-transition: all 0.2s ease-in;
-  	-webkit-transition: all 0.2s ease-in;
-  	transition: all 0.2s ease-in;
-}
-
 
 .team-content a {
 	color: #FFFFFF;
@@ -158,7 +141,7 @@ h1 {
 /*Footer*/
 .footer {
 	position: relative;
-	margin-top: 25vh;
+	margin-top: 0;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
