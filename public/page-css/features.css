@@ -39,7 +39,7 @@ td{
 .img-feature {
     width: 50vw;
 }
-.convenient-text{
+.convenient-text, .reliable-text{
     font-size: 1.25em;
     text-align: center;
 }
