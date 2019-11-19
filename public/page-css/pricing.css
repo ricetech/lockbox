@@ -45,9 +45,18 @@ th {
     height: 50px
 }
 
-.fine-print{
+.fine-print {
     padding-top: 1.5em;
     margin-left: 25vw; 
     width: 50%;
-    
+}
+
+.fine-print h2 {
+    font-size: 1.1rem;
+    padding-bottom: 0;
+    margin-bottom: 0.3rem;
+}
+
+.fine-print li {
+    font-size: 0.85rem;
 }
