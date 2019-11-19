@@ -2,11 +2,14 @@
 /* CSS Document */
 
 
+.form-parent {
+	display: flex;
+}
+
 form {
 	text-align: center;
-	margin: calc(var(--navbar-height) + 1rem) auto auto auto;
+	margin: calc(var(--navbar-height) + 10vh) auto auto auto;
 	height: calc(100vh - var(--navbar-height));
-	
 }
 
 a {
