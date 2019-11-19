@@ -117,26 +117,7 @@ h1 {
 	content: "";
 	display: table;
 	clear: both;
-}
-
-
-.team-content a {
-	color: #FFFFFF;
-	-moz-transition: all 0.2s ease-in;
-  	-o-transition: all 0.2s ease-in;
-  	-webkit-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.team-content a:hover {
-	font-weight: bold;
-	color: #3A7CB4;
-	-moz-transition: all 0.2s ease-in;
-  	-o-transition: all 0.2s ease-in;
-  	-webkit-transition: all 0.2s ease-in;
-  	transition: all 0.2s ease-in;
-}
-	  
+}	  
 
 /*Footer*/
 .footer {

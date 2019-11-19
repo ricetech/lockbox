@@ -10,6 +10,23 @@
 	font-size: 1.2rem;
 }
 
+.team-content a {
+	color: #FFFFFF;
+	-moz-transition: all 0.2s ease-in;
+  	-o-transition: all 0.2s ease-in;
+  	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.team-content a:hover {
+	font-weight: bold;
+	color: #3A7CB4;
+	-moz-transition: all 0.2s ease-in;
+  	-o-transition: all 0.2s ease-in;
+  	-webkit-transition: all 0.2s ease-in;
+  	transition: all 0.2s ease-in;
+}
+
 .team-content h2 {
 	padding: 0 0 1rem 0;
 	margin: 1rem 0 0 0;
