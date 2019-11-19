@@ -28,7 +28,7 @@ a:hover {
   	transition: all 0.2s ease-in;
 }
 
-input {
+input, button {
 	background-color: var(--footer-color);
 	color: #FFFFFF;
 	border: 3px solid var(--accent-1-dark);
@@ -37,6 +37,19 @@ input {
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	text-align: center;
 	margin: 0.3rem 0 1rem 0;
+	transition-duration: var(--button-fade-time);
+}
+
+button {
+	cursor: pointer;
+	margin-top: 1rem;
+}
+
+button:hover {
+	background-color: var(--accent-1-dark);
+	color: var(--light-bg-color);
+	border-color: var(--footer-color);
+	transition-duration: var(--button-fade-time);
 }
 
 label {
