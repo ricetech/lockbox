@@ -26,7 +26,13 @@ a:hover {
 }
 
 input {
-	
+	background-color: var(--footer-color);
+	color: #FFFFFF;
+	border: 3px solid var(--accent-1-dark);
+	border-radius: 25px;
+	font-size: 1.5rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	text-align: center
 }
 
 label {
