@@ -29,7 +29,7 @@
 .feat1 {
     font-size: 1.5rem;
 	text-align: center;
-	padding: .5em 0 .2em 0;
+    padding: .5em 0 .2em 0;
 	z-index: 50;
 }
 
@@ -48,11 +48,50 @@
 .desc1 {
     position: absolute;
 	width: 40%;
-	height: 25rem;
+	height: 20rem;
     right: 0;
+    text-align: center;
+    padding-right: 5em;
+    padding-top: 5em;
     
 }
 
 .desc-text1 {
+    font-size: 1.5rem;
+}
+
+.rationale1 {
+	padding: 26rem 2rem 0 2rem;
+	font-size: 1.2rem;
+}
+
+
+
+.feat2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .5em 0 .2em 0;
+	z-index: 50;
+}
+.pic2{
+    position: absolute;
+	width: 50%;
+	height: 20rem;
+	right: 0;
+    overflow: hidden;
+}
+
+.desc2 {
+    position: absolute;
+	width: 40%;
+	height: 25rem;
+    left: 0;
+    text-align: center;
+    padding-right: 5em;
+    padding-top: 5em;
+    
+}
+
+.desc-text2 {
     font-size: 1.5rem;
 }
